@@ -1,0 +1,26 @@
+{
+  "name": "todo-app",
+  "version": "0.0.0",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.0",
+    "underscore": "~1.5",
+    "bootstrap": "~3.1",
+    "angular-resource": "~1.2",
+    "angular-cookies": "~1.2",
+    "angular-mocks": "~1.2",
+    "angular-ui-utils": "~0.1",
+    "angular-bootstrap": "~0.10",
+    "moment": "~2.5",
+    "font-awesome": "~4.0",
+    "less": "less.js#^2.6.1",
+    "angular": "^1.5.4",
+    "angular-animate": "^1.5.3",
+    "angular-ui-router": "^0.2.18"
+  }
+}

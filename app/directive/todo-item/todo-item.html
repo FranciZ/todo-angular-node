@@ -1,0 +1,13 @@
+<div class="todo-item-directive">
+
+    <div ng-class="ngModel.done?'todo-checkbox-done':''" class="todo-checkbox" ng-click="onToggleClick()"></div>
+
+    <div class="content-container">
+        <p class="date">{{ngModel.dateTime | date:'dd.MM.yyyy hh:mm:ss'}}</p>
+        <p class="title">{{ngModel.title}}</p>
+    </div>
+
+
+    <div class="remove" ng-click="onRemoveClick()">Remove</div>
+
+</div>

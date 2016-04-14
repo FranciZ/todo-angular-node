@@ -1,0 +1,17 @@
+<div class="col-md-12">
+
+    <div class="col-sm-6 col-sm-offset-3 text-center">
+        <h2>My ToDo's</h2>
+        <input
+            type="text"
+            class="form-control"
+            ng-model="todo.title"
+            placeholder="Write your todo...">
+        <br/>
+        <div class="btn btn-block btn-primary" ng-click="addTodoClick()">Add</div>
+        <hr/>
+        <todo-item ng-repeat="item in todoModel.list" on-toggle="itemToggle(item)" on-remove="itemRemove(item, dateTime)" ng-model="item">
+        </todo-item>
+    </div>
+
+</div>
